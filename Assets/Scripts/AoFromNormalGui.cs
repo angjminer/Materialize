@@ -173,6 +173,7 @@ public class AoFromNormalGui : MonoBehaviour
 
     private void OnGUI()
     {
+        GUI.matrix = Matrix4x4.TRS (new Vector3(0, 0, 0), Quaternion.identity, new Vector3 (MainGui.Instance.guiScale.x, MainGui.Instance.guiScale.y, 1));
         _windowRect.width = 300;
         _windowRect.height = 280;
 

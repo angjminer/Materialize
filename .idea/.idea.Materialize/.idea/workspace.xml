@@ -5,27 +5,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd680e91-9dfe-4bdc-b145-084e397fb63e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Materialize/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Materialize/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Materialize/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlignmentGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlignmentGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlignmentGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlignmentGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AoFromNormalGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AoFromNormalGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AoFromNormalGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AoFromNormalGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AoSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AoSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AoSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AoSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BatchUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BatchUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BatchUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BatchUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CommandListExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CommandListExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CommandListExecutor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CommandListExecutor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ControlsGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ControlsGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ControlsGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ControlsGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CubemapPicker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CubemapPicker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CubemapPicker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CubemapPicker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EdgeFromNormalGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EdgeFromNormalGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EdgeFromNormalGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EdgeFromNormalGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EdgeSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EdgeSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EdgeSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EdgeSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EditDiffuseGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EditDiffuseGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EditDiffuseGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EditDiffuseGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/TextureImportTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/TextureImportTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/TextureImportTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/TextureImportTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetColorFromLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetColorFromLight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetColorFromLight.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetColorFromLight.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HeightFromDiffuseSettings.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainGui.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaterialGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaterialGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetallicGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetallicGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetallicGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetallicGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetallicSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetallicSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetallicSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetallicSettings.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightGui.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NormalFromHeightSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PostProcessGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PostProcessGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PostProcessGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PostProcessGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PropChannelMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PropChannelMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PropChannelMap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PropChannelMap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/GuiHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Resources/GuiHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resources/GuiHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Resources/GuiHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SampleProbeTex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SampleProbeTex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SampleProbeTex.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SampleProbeTex.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveLoadProject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveLoadProject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveLoadProject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveLoadProject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SettingsGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SettingsGui.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SmoothnessGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SmoothnessGui.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Height_From_Diffuse_Preview.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Height_From_Diffuse_Preview.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Normal_From_Height_Preview.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Normal_From_Height_Preview.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Resources/Blit_Shader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Resources/Blit_Shader.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Smoothness_Preview.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Smoothness_Preview.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SmoothnessGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SmoothnessGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SmoothnessSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SmoothnessSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SmoothnessSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SmoothnessSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpecularGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpecularGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpecularGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpecularGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SuggestionGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SuggestionGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SuggestionGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SuggestionGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextureScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextureScale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextureScale.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextureScale.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TilingTextureMakerGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TilingTextureMakerGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TilingTextureMakerGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TilingTextureMakerGui.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/BashRunner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/BashRunner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/BashRunner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/BashRunner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ClipboardHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ClipboardHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ClipboardHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ClipboardHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/CopyScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/CopyScale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/CopyScale.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/CopyScale.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/CountLocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/CountLocker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/CountLocker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/CountLocker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiMaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiMaker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/GuiMaker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/IHideGuiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/IHideGuiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/IHideGuiManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/IHideGuiManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/Logger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/Logger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/Logger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ObjectZoomPanRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ObjectZoomPanRotate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ObjectZoomPanRotate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ObjectZoomPanRotate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ProgramEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ProgramEnums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ProgramEnums.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ProgramEnums.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/Singleton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/Singleton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/StringExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/StringExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/StringExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/StringExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/TGALoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/TGALoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/TGALoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/TGALoader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/Utility-ASM.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/Utility-ASM.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/Utility-ASM.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/Utility-ASM.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WelcomeGui.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WelcomeGui.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WelcomeGui.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WelcomeGui.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler7.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +161,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88cb3abdaf5d45fba6df58d08fe262ed2d000/91/5dc0dd83/GUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9a520ba9e9ce4da7beb03d30b80b9b501aa00/6a/04ae9232/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OBJ-IO/Examples/Scripts/Example.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OBJ-IO/Plugins/Extension/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OBJ-IO/Plugins/Mesh/OBJ/OBJFaceVertex.cs" root0="FORCE_HIGHLIGHTING" />
@@ -104,9 +190,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SampleProbeTex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveLoadProject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SettingsGui.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/maikeu/MeusProgramas/Materialize/Assets/Scripts/SmoothnessGui.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SmoothnessGui.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/maikeu/MeusProgramas/Materialize/Assets/Scripts/SmoothnessGui.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SmoothnessSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpecularGui.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SuggestionGui.cs" root0="FORCE_HIGHLIGHTING" />
@@ -114,10 +198,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WelcomeGui.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Alignment_Shader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Colored Blended.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/maikeu/MeusProgramas/Materialize/Assets/Shaders/Normal_From_Height_Preview.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/maikeu/MeusProgramas/Materialize/Assets/Shaders/Normal_From_Height_Preview.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/maikeu/MeusProgramas/Materialize/Assets/Shaders/Normal_From_Height_Preview.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/maikeu/MeusProgramas/Materialize/Assets/Shaders/Normal_From_Height_Preview.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/SurfacePBS_Tess_Generated.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StandaloneFileBrowser/Runtime/Common/ExtensionFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StandaloneFileBrowser/Runtime/Linux/StandaloneFileBrowserLinux.cs" root0="FORCE_HIGHLIGHTING" />
@@ -214,7 +294,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -227,7 +307,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Unity3D/2022.1.4f1/Editor/Unity" />
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/2022.1.4f1/Editor/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -306,11 +386,12 @@
       <workItem from="1655132693571" duration="1093000" />
       <workItem from="1655139048188" duration="1697000" />
       <workItem from="1655142484291" duration="7818000" />
+      <workItem from="1667073580699" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />

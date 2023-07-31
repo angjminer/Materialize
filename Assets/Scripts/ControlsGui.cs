@@ -45,11 +45,13 @@ public class ControlsGui : MonoBehaviour
 
     private void OnGUI()
     {
-        _windowRect = new Rect(Screen.width - 480, Screen.height - 370, 170, 280);
+        GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(MainGui.Instance.guiScale.x, MainGui.Instance.guiScale.y, 1));
+
+        _windowRect = new Rect((Screen.width / MainGui.Instance.guiScale.x) - 480, (Screen.height / MainGui.Instance.guiScale.y) - 370, 170, 280);
 
         if (_windowOpen) _windowRect = GUI.Window(22, _windowRect, DoMyWindow, "Controls");
 
-        if (!GUI.Button(new Rect(Screen.width - 370, Screen.height - 40, 80, 30), "Controls")) return;
+        if (!GUI.Button(new Rect((Screen.width / MainGui.Instance.guiScale.x) - 370, (Screen.height / MainGui.Instance.guiScale.y) - 40, 80, 30), "Controls")) return;
         _windowOpen = !_windowOpen;
     }
 }

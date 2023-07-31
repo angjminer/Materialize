@@ -474,6 +474,7 @@ public class SmoothnessGui : MonoBehaviour
 
     private void OnGUI()
     {
+        GUI.matrix = Matrix4x4.TRS (new Vector3(0, 0, 0), Quaternion.identity, new Vector3 (MainGui.Instance.guiScale.x, MainGui.Instance.guiScale.y, 1));
         if (!_settingsInitialized) return;
 
         _windowRect.width = 300;

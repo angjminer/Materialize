@@ -58,6 +58,7 @@ public class WelcomeGui : MonoBehaviour
 
     private void OnGUI()
     {
+        GUI.matrix = Matrix4x4.TRS (new Vector3(0, 0, 0), Quaternion.identity, new Vector3 (MainGui.Instance.guiScale.x, MainGui.Instance.guiScale.y, 1));
         GUI.color = new Color(1, 1, 1, _backgroundFade);
 
         GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Background);

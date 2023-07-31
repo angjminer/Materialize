@@ -244,5 +244,8 @@ public class PostProcessGui : MonoBehaviour
         GUI.DragWindow();
     }
 
-    private void OnGUI() { _windowRect = GUI.Window(19, _windowRect, DoMyWindow, "Post Process"); }
+    private void OnGUI() {
+        GUI.matrix = Matrix4x4.TRS (new Vector3(0, 0, 0), Quaternion.identity, new Vector3 (MainGui.Instance.guiScale.x, MainGui.Instance.guiScale.y, 1));
+        _windowRect = GUI.Window(19, _windowRect, DoMyWindow, "Post Process");
+    }
 }

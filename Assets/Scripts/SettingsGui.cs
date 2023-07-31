@@ -195,13 +195,20 @@ public class SettingsGui : MonoBehaviour
 
     private void OnGUI()
     {
-        _windowRect = new Rect(Screen.width - 300, Screen.height - 360, 280, 300);
+        GUI.matrix = Matrix4x4.TRS (new Vector3(0, 0, 0), Quaternion.identity, new Vector3 (MainGui.Instance.guiScale.x, MainGui.Instance.guiScale.y, 1));
+
+        _windowRect = new Rect((Screen.width / MainGui.Instance.guiScale.x) - 300, 
+            (Screen.height  / MainGui.Instance.guiScale.y) - 360, 280, 300);
 
         if (_windowOpen)
             _windowRect = GUI.Window(20, _windowRect, DoMyWindow, "Setting and Preferences");
 
-        if (!GUI.Button(new Rect(Screen.width - 280, Screen.height - 40, 80, 30), "Settings"))
+        
+        
+        if (!GUI.Button(new Rect((Screen.width / MainGui.Instance.guiScale.x) - 280, 
+                (Screen.height  / MainGui.Instance.guiScale.y) - 40, 80, 30), "Settings"))
             return;
+
         if (_windowOpen)
         {
             SaveSettings();

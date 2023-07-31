@@ -150,6 +150,9 @@ public class MainGui : MonoBehaviour
     public bool ScaleTexture;
     private bool _scaleTextureLocked;
 
+    public Vector2 pivotPoint;
+    public Vector2 guiScale;
+
     private void Awake() { Instance = this; }
 
     private void Start()
@@ -205,6 +208,9 @@ public class MainGui : MonoBehaviour
         ReflectionProbe.RenderProbe();
 
         HideGuiLocker.LockEmpty += LoadHideState;
+        
+        pivotPoint = Vector2.zero;
+        guiScale = new Vector2(Screen.width / 1920f,Screen.height / 1080f);
     }
 
     private void PrepareToCreate()
@@ -329,16 +335,19 @@ public class MainGui : MonoBehaviour
 
     private void OnGUI()
     {
+        
+        GUI.matrix = Matrix4x4.TRS (new Vector3(0, 0, 0), Quaternion.identity, new Vector3 (guiScale.x, guiScale.y, 1));
+
         #region Unhideable Buttons
 
         //==================================================//
         // 					Unhidable Buttons				//
         //==================================================//
 
-        if (GUI.Button(new Rect(Screen.width - 80, Screen.height - 40, 70, 30), "Quit"))
+        if (GUI.Button(new Rect((Screen.width / MainGui.Instance.guiScale.x) - 80, (Screen.height / MainGui.Instance.guiScale.y) - 40, 70, 30), "Quit"))
             Application.Quit();
 
-        if (GUI.Button(new Rect(Screen.width - 480, Screen.height - 40, 100, 30), "Batch Textures"))
+        if (GUI.Button(new Rect((Screen.width / MainGui.Instance.guiScale.x) - 480, (Screen.height / MainGui.Instance.guiScale.y) - 40, 100, 30), "Batch Textures"))
         {
             BatchUi.BatchLoadTextures();
         }
